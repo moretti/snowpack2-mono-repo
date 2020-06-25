@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "forceConsistentCasingInFileNames": true,
+    "importsNotUsedAsValues": "error",
+    "jsx": "react",
+    "lib": ["ES2017", "DOM"],
+    "moduleResolution": "node",
+    /* noEmit - We only use TypeScript for type checking. */
+    // "noEmit": true,
+    /* TODO: type support */
+    "noImplicitAny": false,
+    "paths": { "*": ["web_modules/.types/*"] },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2017",
+  },
+  "exclude": [
+    "**/node_modules/*",
+    "**/dist/**"
+  ]
+}
+
+

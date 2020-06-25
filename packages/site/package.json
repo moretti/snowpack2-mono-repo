@@ -1,0 +1,14 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "source": "src/index.tsx",
+  "scripts": {
+    "watch": "snowpack dev"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "snowpack": "^2.5.4"
+  },
+  "license": "MIT"
+}
